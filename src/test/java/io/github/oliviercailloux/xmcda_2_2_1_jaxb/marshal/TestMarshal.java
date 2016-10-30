@@ -1,4 +1,4 @@
-package org.decision_deck.xmcda_2_2_1_jaxb.marshal;
+package io.github.oliviercailloux.xmcda_2_2_1_jaxb.marshal;
 
 import java.util.List;
 
@@ -7,13 +7,14 @@ import javax.xml.bind.JAXBElement;
 import javax.xml.bind.JAXBException;
 import javax.xml.bind.Marshaller;
 
-import org.decision_deck.xmcda_2_2_1_jaxb.ObjectFactory;
-import org.decision_deck.xmcda_2_2_1_jaxb.X2Alternative;
-import org.decision_deck.xmcda_2_2_1_jaxb.X2Alternatives;
-import org.decision_deck.xmcda_2_2_1_jaxb.X2Criteria;
-import org.decision_deck.xmcda_2_2_1_jaxb.X2Criterion;
-import org.decision_deck.xmcda_2_2_1_jaxb.XMCDA;
 import org.junit.Test;
+
+import io.github.oliviercailloux.xmcda_2_2_1_jaxb.ObjectFactory;
+import io.github.oliviercailloux.xmcda_2_2_1_jaxb.X2Alternative;
+import io.github.oliviercailloux.xmcda_2_2_1_jaxb.X2Alternatives;
+import io.github.oliviercailloux.xmcda_2_2_1_jaxb.X2Criteria;
+import io.github.oliviercailloux.xmcda_2_2_1_jaxb.X2Criterion;
+import io.github.oliviercailloux.xmcda_2_2_1_jaxb.XMCDA;
 
 public class TestMarshal {
 

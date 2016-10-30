@@ -4,7 +4,7 @@
 	xsi:schemaLocation="http://java.sun.com/xml/ns/jaxb http://java.sun.com/xml/ns/jaxb/bindingschema_2_0.xsd http://jaxb2-commons.dev.java.net/namespace-prefix http://java.net/projects/jaxb2-commons/sources/svn/content/namespace-prefix/trunk/src/main/resources/prefix-namespace-schema.xsd"
 	version="2.0" schemaLocation="http://www.decision-deck.org/xmcda/_downloads/XMCDA-2.2.1.xsd">
 	<jaxb:schemaBindings>
-		<jaxb:package name="org.decision_deck.xmcda_2_2_1_jaxb" />
+		<jaxb:package name="io.github.oliviercailloux.xmcda_2_2_1_jaxb" />
 		<jaxb:nameXmlTransform>
 			<jaxb:typeName prefix="X2" />
 		</jaxb:nameXmlTransform>
@@ -12,7 +12,7 @@
 	<!-- See https://java.net/projects/jaxb2-commons/pages/Namespace-prefix 
 		and https://github.com/Siggen/jaxb2-namespace-prefix -->
 	<jaxb:bindings>
-		<jaxbnp:prefix name="xmcda" />
+		<jaxbnp:prefix name="x2" />
 	</jaxb:bindings>
 	<!-- JAXB associates a "name" property in Java to the attribute "name" associated 
 		with attributesLinearConstraints (through the defaultAttributes attributeGroup). 
