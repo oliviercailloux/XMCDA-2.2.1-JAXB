@@ -1,0 +1,4 @@
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="public">
+    <uri name="http://www.decision-deck.org/2012/XMCDA-2.2.1" uri="XMCDA-2.2.1.xsd" />
+</catalog>
+

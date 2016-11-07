@@ -17,12 +17,9 @@
 				<artifactId>maven-jaxb2-plugin</artifactId>
 				<version>0.13.1</version>
 				<configuration>
-					<bindingDirectory>src/binding</bindingDirectory>
-					<schemas>
-						<schema>
-							<url>http://www.decision-deck.org/xmcda/_downloads/XMCDA-2.2.1.xsd</url>
-						</schema>
-					</schemas>
+					<schemaDirectory>src/binding</schemaDirectory>
+					<catalog>src/binding/catalog-xmcda.xml</catalog>
+					<strict>false</strict>
 					<locale>en</locale>
 					<args>
 						<arg>-extension</arg>
