@@ -1,6 +1,6 @@
 = XMCDA-2.2.1-JAXB
 
-https://maven-badges.herokuapp.com/maven-central/io.github.oliviercailloux/xmcda-2.2.1-jaxb/badge.svg
+image:https://maven-badges.herokuapp.com/maven-central/io.github.oliviercailloux/xmcda-2.2.1-jaxb/badge.svg["Artifact on Maven Central", link="http://search.maven.org/#search|ga|1|g%3A%22io.github.oliviercailloux%22%20a%3A%22xmcda-2.2.1-jaxb%22"]
 
 Java source for (un)marshalling XMCDA-2.2.1 files, JAXB-generated from the schema
 
